@@ -1,0 +1,17 @@
+
+
+<web-app>
+    <servlet>
+        <servlet-name>textbox</servlet-name>
+        <servlet-class>Conn.DBDemo.textbox</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>textbox</servlet-name>
+        <url-pattern>/textbox.do</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
